@@ -1,0 +1,16 @@
+body {
+  background-color: #b0f4e6;
+}
+
+hr{
+  background-color: black;
+  border-style: none;
+  height: 2px;
+}
+
+img{
+height: 200px;
+}
+h3{
+      font-size: 100px;
+}
