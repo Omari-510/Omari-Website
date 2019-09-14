@@ -3,17 +3,69 @@
   <head>
     <meta charset="utf-8">
     <title>Omari Personal Site</title>
-    <link rel="stylesheet" href="css/styles.css"
+
+
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.css" rel="stylesheet">
+
+    <!-- External Links From Internal Folders -->
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/master.css">
+    <link rel="stylesheet" href="css/custom.css" >
+    <link rel="stylesheet" href="css/sign_up.css" >
+    <link rel="stylesheet" href="css/contact_form.css" >
+
+    <!-- External JavaScript From Website -->
+    <script src="https://use.fontawesome.com/20ab91acc4.js"></script>
   </head>
-  <table>
-    <tr>
-      <td><h1>Omari's About Me Page</h1></td>
 
-      </td>
-
-    </tr>
-  </table>
   <body style="background-color: #b0f4e6;">
+    <h1>Omari's About Me Page</h1>
+    <nav id="siteNav" class="navbar navbar-default navbar-fixed-top not-home" role="navigation">
+      <div class="container">
+
+        <!-- Logo and responsive toggle -->
+        <div class="navbar-header">
+          <!-- Logo -->
+
+          <!-- Responsive Navigation Button -->
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+        </div><!-- /.navbar-header -->
+
+
+        <!-- Navbar links -->
+        <div class="collapse navbar-collapse" id="navbar">
+          <ul class="nav navbar-nav navbar-right">
+            <li class="active">
+              <a href="index.html">Home</a>
+            </li>
+            <li>
+              <a href="#">About Me</a>
+            </li>
+            <li>
+              <a href="dicee.html">My Dice Game</a>
+            </li>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Learned <span class="caret"></span></a>
+              <ul class="dropdown-menu" aria-labelledby="about-us">
+                <li><a href="terms.html">Terms</a></li>
+                <li><a href="reflections.html">Reflections</a></li>
+                <li><a href="brothers.html">Know My Brothers</a></li>
+              </ul>
+            </li>
+            <li>
+              <a href="index.html#contact_me">Contact</a>
+            </li>
+          </ul>
+        </div><!-- /.navbar-collapse -->
+
+      </div><!-- /.container -->
+    </nav>
 
   <h3>Were I'm from </h3>
     <p>My name is Omari and I was born in Fremont,CA. I was born at Washington hospital on September 23,2005 at 10:20am. Right now I am 13 years old. When I was born I lived in Fremont for a year and then I moved to my hometown Hayward.</p>
@@ -66,6 +118,18 @@
       <p>Click on the image to take lessons.</p>
       <td><a href="https://www.youtube.com/watch?v=_UegyLyEK8k"><img src="images/R_img/i.png" alt="" /></a>
         <td><a href="https://www.youtube.com/watch?v=BWtvN4ONfWI"><img src="https://scontent-lax3-1.cdninstagram.com/vp/9320bc86180711856a39748d2e9abc91/5DC6D3A0/t51.2885-19/s150x150/62411543_413272532599442_7445059867535998976_n.jpg?_nc_ht=scontent-lax3-1.cdninstagram.com" alt="" /></a>
+          <!-- jQuery -->
+          <script src="js/jquery-1.11.3.min.js"></script>
+
+          <!-- Bootstrap Core JavaScript -->
+          <script src="js/bootstrap.min.js"></script>
+
+          <!-- Plugin JavaScript -->
+          <script src="js/jquery.easing.min.js"></script>
+
+          <!-- Custom Javascript -->
+          <script src="js/custom.js"></script>
   </body>
+
 
  </html>

@@ -11,3 +11,6 @@ hr{
 img{
 height: 200px;
 }
+.not-home a{
+  color: green !important;
+}
